@@ -1,1 +1,14 @@
-/* Paste your code from task 1 here */
+/*
+intoduction
+*/
+console.log("Running t01_introduction.js")
+console.log("it works.")
+
+// Variables
+
+var year="2026"
+var name="Shaun"
+var age="14"
+var dollars="100 dollars"
+
+console.log("hi my name is "+name+". As of "+year+", I am "+age+" years old")
