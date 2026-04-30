@@ -9,6 +9,6 @@ console.log("it works.")
 var year="2026"
 var name="Shaun"
 var age="14"
-var dollars="100 dollars"
+var dollars=100
 
-console.log("hi my name is "+name+". As of "+year+", I am "+age+" years old")
+console.log("hi my name is "+name+". As of "+year+", I am "+age+" years old. I have "+dollars+"dollars.");
