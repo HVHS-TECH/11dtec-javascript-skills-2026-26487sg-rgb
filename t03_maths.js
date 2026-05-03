@@ -10,7 +10,7 @@ var year="2026"
 var name="Shaun"
 var age="14"
 var dollars=100
-var number1=
+var number1=502.75
 
 
 
