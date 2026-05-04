@@ -8,14 +8,16 @@ console.log("it works.")
 
 var year="2026"
 var name="Shaun"
-var age="14"
+var age=15
 var dollars=100
 var number1=502.75
+var number2=10
+var number3=2
+var number4=3
+var futureage= age+ number2
+var moneyleft= dollars/number3
+var addmoney= moneyleft + number4
 
 
 
-
-
-
-
-console.log("hi my name is "+name+". As of "+year+", I am "+age+" years old. I have "+dollars+"dollars.");
+console.log("hi my name is "+name+". i was born in "+number1*4+". As of "+year+", I am "+age+" years old. I have "+dollars+" dollars. In "+number2+" years, I will be "+futureage+". I will have "+moneyleft+" dollars left if i spent half of my money. If i add "+number4+" dollars, I will have "+addmoney+" dollars.")
