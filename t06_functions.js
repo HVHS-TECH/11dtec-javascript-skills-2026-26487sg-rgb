@@ -26,3 +26,18 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>hi my name is "+name+". i was born in "+number1*4+". As of "+year+", I am "+age+" years old. I have "+dollars+" dollars. In "+number2+" years, I will be "+futureage+". I will have "+moneyleft+" dollars left if i spent half of my money. If i add "+number4+" dollars, I will have "+addmoney+" dollars.<h2/>"
 
 
+
+/*
+Main code
+*/
+
+welcome()
+
+/*
+Functions
+*/
+
+function welcome(){
+OUTPUT.innerHTML += "<p> Welcome to the shop</p>";
+}
+
