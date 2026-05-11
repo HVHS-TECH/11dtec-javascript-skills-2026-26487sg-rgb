@@ -33,9 +33,20 @@ Main code
 
 welcome()
 
+displayProduct(" Chocolate Bar", 4); 
+displayProduct("Chips", 3); 
+displayProduct("Drink", 2.50); 
+
+
+
 /*
 Functions
 */
 
 function welcome(){
 OUTPUT.innerHTML += "<p> Welcome to the shop</p>";}
+
+
+function displayProduct (_name,_price){
+OUTPUT.innerHTML+= "<h3>The  "+_name+" is $"+_price+" </h3>"; 
+}
