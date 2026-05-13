@@ -53,8 +53,25 @@ OUTPUT.innerHTML+= "<h3>The  "+_name+" is $"+_price+" </h3>";
 function start(){
 OUTPUT.innerHTML += "<p> hi this is shaun the sheep</p>";
 }
+
+
 function getFormInput(){
 const NAME_FIELD = document.getElementById("nameField");
 let userName = NAME_FIELD.value;
-OUTPUT.innerHTML = "<p> your name is "+userName+"</p>";
+OUTPUT.innerHTML = "<p> Your name is "+userName+"</p>";
+}
+
+
+
+function getFormInput(){
+const COLOR_FIELD = document.getElementById("colorField");
+let userColor = COLOR_FIELD.value;
+OUTPUT.innerHTML = "<p> Your favorite color is "+userColor+"</p>";
+}
+
+
+function getFormInput(){
+const AGE_FIELD = document.getElementById("ageField");
+let userAge = AGE_FIELD.value;
+OUTPUT.innerHTML = "<p> Your age is "+userAge+"</p>";
 }
