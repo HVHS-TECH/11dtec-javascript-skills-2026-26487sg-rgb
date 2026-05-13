@@ -53,9 +53,3 @@ OUTPUT.innerHTML+= "<h3>The  "+_name+" is $"+_price+" </h3>";
 function start(){
 OUTPUT.innerHTML += "<p> hi this is shaun the sheep</p>";
 }
-
-
-
-
- 7
--
